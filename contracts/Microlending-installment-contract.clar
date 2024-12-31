@@ -93,3 +93,4 @@
           (asserts! (is-eq (get balance loan-data) u0) (err ERR_INVALID_REPAYMENT))
           (map-delete loans tx-sender)
           (ok true))))))
+
